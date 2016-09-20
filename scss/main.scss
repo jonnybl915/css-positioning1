@@ -6,5 +6,39 @@ img {
 }
 
 #app-container{
-   max-width: 960px;
+   //max-width: 1000px;
+   margin: 0 auto;
+   background: url('../rsvp-shop/avocado-splash.jpg') center center no-repeat;
+   background-size: cover;
+   height: 100vh;
+  // position: relative;
+}
+
+.shopping-bag {
+  position: absolute;
+  width: 35px;
+  height: 70px;
+  top: 130px;
+  right: 35px;
+  color: black;
+  font-size: 10px;
+}
+// .saturate {
+//   -webkit-filter: saturate(3); filter: saturate(3);
+// }
+.shop-btn {
+  border: solid 1px black;
+  background-color: black;
+  text-align: center;
+  position: relative;
+  display: inline-block;
+  width: 150px;
+  height: 75px;
+  top: 98%;
+  left: 50%;
+  margin: 10 auto;
+  padding: 0px;
+
+  transform: translate(-50%, -50%);
+
 }
