@@ -22,7 +22,8 @@ img {
 
 .shop-btn {
   border: solid 1px black;
-  background-color: black;
+  background-color: #212121;
+  color: white;
   text-align: center;
   position: relative;
   display: inline-block;
@@ -33,5 +34,10 @@ img {
   margin: 10 auto;
   padding: 0px;
   transform: translate(-50%, -50%); }
+  .shop-btn p {
+    font-family: baton;
+    padding: 10px;
+    letter-spacing: 2px;
+    font-style: italic; }
 
 /*# sourceMappingURL=styles.css.map */

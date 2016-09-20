@@ -28,7 +28,8 @@ img {
 // }
 .shop-btn {
   border: solid 1px black;
-  background-color: black;
+  background-color: #212121;
+  color: white;
   text-align: center;
   position: relative;
   display: inline-block;
@@ -38,6 +39,13 @@ img {
   left: 50%;
   margin: 10 auto;
   padding: 0px;
+  p {
+    font-family: baton;
+    padding: 10px;
+    letter-spacing: 2px;
+    font-style: italic;
+
+  }
 
   transform: translate(-50%, -50%);
 
